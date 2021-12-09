@@ -1,4 +1,4 @@
-version: '1.25.0'
+version: '2.2'
 services:
   php-apache-environment:
     image: novend10/kuis2
