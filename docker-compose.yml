@@ -1,12 +1,12 @@
 version: '3.8'
 services:
   php-apache-environment:
-    image: novend10/pos-kasir-php
+    image: novend10/kasir-sistem
     container_name: php-apache
     depends_on:
       -db
     volumes:
-      -./php/src:/var/www/html/
+      - ./php/src:/var/www/html/
     ports:
       - 8000:80
     networks:
